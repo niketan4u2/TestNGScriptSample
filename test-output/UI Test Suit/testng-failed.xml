@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UI Test Suit]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="common.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Listener Testing(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="ui.ListenerDemoTest">
+        <methods>
+          <include name="launchApp"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- ui.ListenerDemoTest -->
+    </classes>
+  </test> <!-- Listener Testing(failed) -->
+</suite> <!-- Failed suite [UI Test Suit] -->

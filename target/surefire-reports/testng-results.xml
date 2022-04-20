@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="22" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-19T19:26:14 IST" name="Command line suite" finished-at="2022-04-19T19:26:28 IST" duration-ms="13268">
+    <groups>
+      <group name="user.registration">
+        <method signature="GroupsDemoTest.bTest3()[pri:0, instance:ui.GroupsDemoTest@7494f96a]" name="bTest3" class="ui.GroupsDemoTest"/>
+        <method signature="GroupsDemoTest.btest4()[pri:0, instance:ui.GroupsDemoTest@7494f96a]" name="btest4" class="ui.GroupsDemoTest"/>
+        <method signature="GroupsDemoTest.loginTest()[pri:1, instance:ui.GroupsDemoTest@7494f96a]" name="loginTest" class="ui.GroupsDemoTest"/>
+        <method signature="GroupsDemoTest.logout()[pri:2, instance:ui.GroupsDemoTest@7494f96a]" name="logout" class="ui.GroupsDemoTest"/>
+      </group> <!-- user.registration -->
+      <group name="bvt">
+        <method signature="GroupsDemoTest.bTest3()[pri:0, instance:ui.GroupsDemoTest@7494f96a]" name="bTest3" class="ui.GroupsDemoTest"/>
+        <method signature="GroupsDemoTest.btest4()[pri:0, instance:ui.GroupsDemoTest@7494f96a]" name="btest4" class="ui.GroupsDemoTest"/>
+      </group> <!-- bvt -->
+      <group name="regression">
+        <method signature="GroupsDemoTest.bTest3()[pri:0, instance:ui.GroupsDemoTest@7494f96a]" name="bTest3" class="ui.GroupsDemoTest"/>
+        <method signature="GroupsDemoTest.loginTest()[pri:1, instance:ui.GroupsDemoTest@7494f96a]" name="loginTest" class="ui.GroupsDemoTest"/>
+        <method signature="GroupsDemoTest.logout()[pri:2, instance:ui.GroupsDemoTest@7494f96a]" name="logout" class="ui.GroupsDemoTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2022-04-19T19:26:14 IST" name="Command line test" finished-at="2022-04-19T19:26:28 IST" duration-ms="13268">
+      <class name="common.BaseTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:common.BaseTest@58a9760d]" started-at="2022-04-19T19:26:05 IST" name="launchBrowser" finished-at="2022-04-19T19:26:14 IST" duration-ms="9150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:common.BaseTest@58a9760d]" started-at="2022-04-19T19:26:28 IST" name="closeBrowser" finished-at="2022-04-19T19:26:28 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- common.BaseTest -->
+      <class name="ui.DataproviderDemoTest">
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:ui.DataproviderDemoTest@192c3f1e]" started-at="2022-04-19T19:26:14 IST" name="test" data-provider="create" finished-at="2022-04-19T19:26:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ui.DataproviderDemoTest@192c3f1e]" started-at="2022-04-19T19:26:14 IST" name="test1" data-provider="create" finished-at="2022-04-19T19:26:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:ui.DataproviderDemoTest@192c3f1e]" started-at="2022-04-19T19:26:14 IST" name="test" data-provider="create" finished-at="2022-04-19T19:26:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:ui.DataproviderDemoTest@192c3f1e]" started-at="2022-04-19T19:26:14 IST" name="test" data-provider="create" finished-at="2022-04-19T19:26:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:ui.DataproviderDemoTest@192c3f1e]" started-at="2022-04-19T19:26:14 IST" name="test" data-provider="create" finished-at="2022-04-19T19:26:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ui.DataproviderDemoTest@192c3f1e]" started-at="2022-04-19T19:26:14 IST" name="test1" data-provider="create" finished-at="2022-04-19T19:26:14 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ui.DataproviderDemoTest@192c3f1e]" started-at="2022-04-19T19:26:14 IST" name="test1" data-provider="create" finished-at="2022-04-19T19:26:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ui.DataproviderDemoTest@192c3f1e]" started-at="2022-04-19T19:26:14 IST" name="test1" data-provider="create" finished-at="2022-04-19T19:26:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- ui.DataproviderDemoTest -->
+      <class name="ui.GroupsDemoTest">
+        <test-method is-config="true" signature="dataSetup()[pri:0, instance:ui.GroupsDemoTest@7494f96a]" started-at="2022-04-19T19:26:14 IST" name="dataSetup" finished-at="2022-04-19T19:26:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetup -->
+        <test-method signature="loginTest()[pri:1, instance:ui.GroupsDemoTest@7494f96a]" started-at="2022-04-19T19:26:14 IST" name="loginTest" finished-at="2022-04-19T19:26:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="bTest3()[pri:0, instance:ui.GroupsDemoTest@7494f96a]" started-at="2022-04-19T19:26:14 IST" name="bTest3" finished-at="2022-04-19T19:26:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest3 -->
+        <test-method signature="logout()[pri:2, instance:ui.GroupsDemoTest@7494f96a]" started-at="2022-04-19T19:26:14 IST" name="logout" finished-at="2022-04-19T19:26:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="btest4()[pri:0, instance:ui.GroupsDemoTest@7494f96a]" started-at="2022-04-19T19:26:14 IST" name="btest4" finished-at="2022-04-19T19:26:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btest4 -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:ui.GroupsDemoTest@7494f96a]" started-at="2022-04-19T19:26:28 IST" name="Teardown" finished-at="2022-04-19T19:26:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- ui.GroupsDemoTest -->
+      <class name="ui.LoginTest">
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:ui.LoginTest@e4487af]" started-at="2022-04-19T19:26:14 IST" name="loginToApplication" finished-at="2022-04-19T19:26:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method is-config="true" signature="disconnectdb()[pri:0, instance:ui.LoginTest@e4487af]" started-at="2022-04-19T19:26:20 IST" name="disconnectdb" finished-at="2022-04-19T19:26:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectdb -->
+        <test-method signature="loginTest()[pri:1, instance:ui.LoginTest@e4487af]" started-at="2022-04-19T19:26:20 IST" name="loginTest" description="This is login test" finished-at="2022-04-19T19:26:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="dbconnect()[pri:0, instance:ui.LoginTest@e4487af]" started-at="2022-04-19T19:26:20 IST" name="dbconnect" finished-at="2022-04-19T19:26:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbconnect -->
+        <test-method signature="logout()[pri:2, instance:ui.LoginTest@e4487af]" started-at="2022-04-19T19:26:20 IST" name="logout" description="This is logout" finished-at="2022-04-19T19:26:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="disconnectdb()[pri:0, instance:ui.LoginTest@e4487af]" started-at="2022-04-19T19:26:20 IST" name="disconnectdb" finished-at="2022-04-19T19:26:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectdb -->
+        <test-method is-config="true" signature="dbconnect()[pri:0, instance:ui.LoginTest@e4487af]" started-at="2022-04-19T19:26:20 IST" name="dbconnect" finished-at="2022-04-19T19:26:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbconnect -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:ui.LoginTest@e4487af]" started-at="2022-04-19T19:26:28 IST" name="logoutFromApplication" finished-at="2022-04-19T19:26:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+      </class> <!-- ui.LoginTest -->
+      <class name="ui.ListenerDemoTest">
+        <test-method signature="launchApp()[pri:0, instance:ui.ListenerDemoTest@687e99d8]" started-at="2022-04-19T19:26:14 IST" name="launchApp" finished-at="2022-04-19T19:26:20 IST" duration-ms="5330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+      </class> <!-- ui.ListenerDemoTest -->
+      <class name="ui.VerifyTitleAndTextTest">
+        <test-method signature="titleTest()[pri:0, instance:ui.VerifyTitleAndTextTest@6aaceffd]" started-at="2022-04-19T19:26:20 IST" name="titleTest" finished-at="2022-04-19T19:26:28 IST" duration-ms="7845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+      </class> <!-- ui.VerifyTitleAndTextTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

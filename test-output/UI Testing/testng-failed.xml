@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [UI Testing]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Functional Testing(failed)">
+    <classes>
+      <class name="ui.LaunchApplicationLogin">
+        <methods>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- ui.LaunchApplicationLogin -->
+      <class name="ui.SkipDemoException">
+        <methods>
+          <include name="skipTest2"/>
+          <include name="skipTest3"/>
+          <include name="dataSetup"/>
+          <include name="Teardown"/>
+        </methods>
+      </class> <!-- ui.SkipDemoException -->
+    </classes>
+  </test> <!-- Functional Testing(failed) -->
+</suite> <!-- Failed suite [UI Testing] -->

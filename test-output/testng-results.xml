@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="13" total="46" passed="31" failed="0" skipped="2">
+  <reporter-output>
+    <line>
+      <![CDATA[About to begin executing Class Functional Testing]]>
+    </line>
+    <line>
+      <![CDATA[Testcase loginTest started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase loginTest passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase logout started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase logout passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase bTest3 started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase bTest3 passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase btest4 started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase btest4 passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase loginTest started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase loginTest passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase logout started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase logout passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase btest4 started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase btest4 passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase skipTest2 started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase skipTest2 got skipped]]>
+    </line>
+    <line>
+      <![CDATA[Testcase skipTest3 started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase skipTest3 got skipped]]>
+    </line>
+    <line>
+      <![CDATA[Testcase launchApp started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase launchApp passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase titleTest started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase titleTest passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase bTest3 started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase bTest3 passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase btest4 started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase btest4 passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase loginTest started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase loginTest passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase logout started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase logout passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase launchApplication started successfully]]>
+    </line>
+    <line>
+      <![CDATA[New chrome browser open.]]>
+    </line>
+    <line>
+      <![CDATA[https://www.saucedemo.com/]]>
+    </line>
+    <line>
+      <![CDATA[Login with user id : standard_user]]>
+    </line>
+    <line>
+      <![CDATA[Password is : secret_sauce]]>
+    </line>
+    <line>
+      <![CDATA[Login is successfull]]>
+    </line>
+    <line>
+      <![CDATA[Windows closed]]>
+    </line>
+    <line>
+      <![CDATA[Testcase launchApplication passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test1 started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test1 passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test1 started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test1 passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test1 started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test1 passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test1 started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test1 passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase bTest3 started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase bTest3 passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase btest4 started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase btest4 passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase loginTest started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase loginTest passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase logout started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase logout passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase titleTest started successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase titleTest passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test1 started successfully]]>
+    </line>
+    <line>
+      <![CDATA[New chrome browser open.]]>
+    </line>
+    <line>
+      <![CDATA[https://www.saucedemo.com/]]>
+    </line>
+    <line>
+      <![CDATA[Login with user id : standard_user,]]>
+    </line>
+    <line>
+      <![CDATA[Password is : secret_sauce.]]>
+    </line>
+    <line>
+      <![CDATA[Login is successfull]]>
+    </line>
+    <line>
+      <![CDATA[Windows closed]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test1 passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test1 started successfully]]>
+    </line>
+    <line>
+      <![CDATA[New chrome browser open.]]>
+    </line>
+    <line>
+      <![CDATA[https://www.saucedemo.com/]]>
+    </line>
+    <line>
+      <![CDATA[Login with user id : locked_out_user,]]>
+    </line>
+    <line>
+      <![CDATA[Password is : secret_sauce.]]>
+    </line>
+    <line>
+      <![CDATA[Login is successfull]]>
+    </line>
+    <line>
+      <![CDATA[Windows closed]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test1 passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test1 started successfully]]>
+    </line>
+    <line>
+      <![CDATA[New chrome browser open.]]>
+    </line>
+    <line>
+      <![CDATA[https://www.saucedemo.com/]]>
+    </line>
+    <line>
+      <![CDATA[Login with user id : problem_user,]]>
+    </line>
+    <line>
+      <![CDATA[Password is : secret_sauce.]]>
+    </line>
+    <line>
+      <![CDATA[Login is successfull]]>
+    </line>
+    <line>
+      <![CDATA[Windows closed]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test1 passed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test1 started successfully]]>
+    </line>
+    <line>
+      <![CDATA[New chrome browser open.]]>
+    </line>
+    <line>
+      <![CDATA[https://www.saucedemo.com/]]>
+    </line>
+    <line>
+      <![CDATA[Login with user id : performance_glitch_user,]]>
+    </line>
+    <line>
+      <![CDATA[Password is : secret_sauce.]]>
+    </line>
+    <line>
+      <![CDATA[Login is successfull]]>
+    </line>
+    <line>
+      <![CDATA[Windows closed]]>
+    </line>
+    <line>
+      <![CDATA[Testcase test1 passed successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-04-15T19:28:49 IST" name="Regression" finished-at="2022-04-15T19:29:33 IST" duration-ms="44672">
+    <groups>
+      <group name="user.registration">
+        <method signature="GroupsDemoTest.bTest3()[pri:0, instance:ui.GroupsDemoTest@298a5e20]" name="bTest3" class="ui.GroupsDemoTest"/>
+        <method signature="GroupsDemoTest.btest4()[pri:0, instance:ui.GroupsDemoTest@298a5e20]" name="btest4" class="ui.GroupsDemoTest"/>
+        <method signature="GroupsDemoTest.loginTest()[pri:1, instance:ui.GroupsDemoTest@298a5e20]" name="loginTest" class="ui.GroupsDemoTest"/>
+        <method signature="GroupsDemoTest.logout()[pri:2, instance:ui.GroupsDemoTest@298a5e20]" name="logout" class="ui.GroupsDemoTest"/>
+      </group> <!-- user.registration -->
+      <group name="bvt">
+        <method signature="BeforeAfterClass.bTest3()[pri:0, instance:ui.BeforeAfterClass@6e6f2380]" name="bTest3" class="ui.BeforeAfterClass"/>
+        <method signature="BeforeAfterClass.btest4()[pri:0, instance:ui.BeforeAfterClass@6e6f2380]" name="btest4" class="ui.BeforeAfterClass"/>
+        <method signature="GroupsDemoTest.bTest3()[pri:0, instance:ui.GroupsDemoTest@298a5e20]" name="bTest3" class="ui.GroupsDemoTest"/>
+        <method signature="GroupsDemoTest.btest4()[pri:0, instance:ui.GroupsDemoTest@298a5e20]" name="btest4" class="ui.GroupsDemoTest"/>
+        <method signature="GroupsDemoTest2.bTest3()[pri:0, instance:ui.GroupsDemoTest2@2a265ea9]" name="bTest3" class="ui.GroupsDemoTest2"/>
+        <method signature="GroupsDemoTest2.btest4()[pri:0, instance:ui.GroupsDemoTest2@2a265ea9]" name="btest4" class="ui.GroupsDemoTest2"/>
+      </group> <!-- bvt -->
+      <group name="regression">
+        <method signature="BeforeAfterClass.bTest3()[pri:0, instance:ui.BeforeAfterClass@6e6f2380]" name="bTest3" class="ui.BeforeAfterClass"/>
+        <method signature="BeforeAfterClass.loginTest()[pri:1, instance:ui.BeforeAfterClass@6e6f2380]" name="loginTest" class="ui.BeforeAfterClass"/>
+        <method signature="BeforeAfterClass.logout()[pri:2, instance:ui.BeforeAfterClass@6e6f2380]" name="logout" class="ui.BeforeAfterClass"/>
+        <method signature="GroupsDemoTest.bTest3()[pri:0, instance:ui.GroupsDemoTest@298a5e20]" name="bTest3" class="ui.GroupsDemoTest"/>
+        <method signature="GroupsDemoTest.loginTest()[pri:1, instance:ui.GroupsDemoTest@298a5e20]" name="loginTest" class="ui.GroupsDemoTest"/>
+        <method signature="GroupsDemoTest.logout()[pri:2, instance:ui.GroupsDemoTest@298a5e20]" name="logout" class="ui.GroupsDemoTest"/>
+        <method signature="GroupsDemoTest2.bTest3()[pri:0, instance:ui.GroupsDemoTest2@2a265ea9]" name="bTest3" class="ui.GroupsDemoTest2"/>
+        <method signature="GroupsDemoTest2.loginTest()[pri:1, instance:ui.GroupsDemoTest2@2a265ea9]" name="loginTest" class="ui.GroupsDemoTest2"/>
+        <method signature="GroupsDemoTest2.logout()[pri:2, instance:ui.GroupsDemoTest2@2a265ea9]" name="logout" class="ui.GroupsDemoTest2"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2022-04-15T19:28:49 IST" name="Functional Testing" finished-at="2022-04-15T19:29:33 IST" duration-ms="44672">
+      <class name="ui.LaunchApplicationLogin">
+        <test-method signature="launchApplication(java.lang.String)[pri:0, instance:ui.LaunchApplicationLogin@11392934]" started-at="2022-04-15T19:29:08 IST" name="launchApplication" finished-at="2022-04-15T19:29:10 IST" duration-ms="2663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase launchApplication started successfully]]>
+            </line>
+            <line>
+              <![CDATA[New chrome browser open.]]>
+            </line>
+            <line>
+              <![CDATA[https://www.saucedemo.com/]]>
+            </line>
+            <line>
+              <![CDATA[Login with user id : standard_user]]>
+            </line>
+            <line>
+              <![CDATA[Password is : secret_sauce]]>
+            </line>
+            <line>
+              <![CDATA[Login is successfull]]>
+            </line>
+            <line>
+              <![CDATA[Windows closed]]>
+            </line>
+            <line>
+              <![CDATA[Testcase launchApplication passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+      </class> <!-- ui.LaunchApplicationLogin -->
+      <class name="ui.GroupsDemoTest2">
+        <test-method signature="bTest3()[pri:0, instance:ui.GroupsDemoTest2@2a265ea9]" started-at="2022-04-15T19:29:07 IST" name="bTest3" finished-at="2022-04-15T19:29:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase bTest3 started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase bTest3 passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bTest3 -->
+        <test-method signature="btest4()[pri:0, instance:ui.GroupsDemoTest2@2a265ea9]" started-at="2022-04-15T19:29:07 IST" name="btest4" finished-at="2022-04-15T19:29:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase btest4 started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase btest4 passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- btest4 -->
+        <test-method signature="loginTest()[pri:1, instance:ui.GroupsDemoTest2@2a265ea9]" started-at="2022-04-15T19:29:07 IST" name="loginTest" finished-at="2022-04-15T19:29:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase loginTest started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase loginTest passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="logout()[pri:2, instance:ui.GroupsDemoTest2@2a265ea9]" started-at="2022-04-15T19:29:07 IST" name="logout" finished-at="2022-04-15T19:29:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase logout started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase logout passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- ui.GroupsDemoTest2 -->
+      <class name="ui.DataproviderDemoTest">
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:ui.DataproviderDemoTest@6892b3b6]" started-at="2022-04-15T19:29:10 IST" name="test" data-provider="create" finished-at="2022-04-15T19:29:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase test started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase test passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:ui.DataproviderDemoTest@6892b3b6]" started-at="2022-04-15T19:29:10 IST" name="test" data-provider="create" finished-at="2022-04-15T19:29:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase test started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase test passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:ui.DataproviderDemoTest@6892b3b6]" started-at="2022-04-15T19:29:10 IST" name="test" data-provider="create" finished-at="2022-04-15T19:29:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase test started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase test passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String,java.lang.String)[pri:0, instance:ui.DataproviderDemoTest@6892b3b6]" started-at="2022-04-15T19:29:10 IST" name="test" data-provider="create" finished-at="2022-04-15T19:29:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase test started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase test passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ui.DataproviderDemoTest@6892b3b6]" started-at="2022-04-15T19:29:10 IST" name="test1" data-provider="create" finished-at="2022-04-15T19:29:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase test1 started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase test1 passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ui.DataproviderDemoTest@6892b3b6]" started-at="2022-04-15T19:29:10 IST" name="test1" data-provider="create" finished-at="2022-04-15T19:29:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase test1 started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase test1 passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ui.DataproviderDemoTest@6892b3b6]" started-at="2022-04-15T19:29:10 IST" name="test1" data-provider="create" finished-at="2022-04-15T19:29:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase test1 started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase test1 passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:ui.DataproviderDemoTest@6892b3b6]" started-at="2022-04-15T19:29:10 IST" name="test1" data-provider="create" finished-at="2022-04-15T19:29:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase test1 started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase test1 passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- ui.DataproviderDemoTest -->
+      <class name="ui.VerifyTitle">
+        <test-method signature="titleTest()[pri:0, instance:ui.VerifyTitle@6d4d66d2]" started-at="2022-04-15T19:28:54 IST" name="titleTest" finished-at="2022-04-15T19:29:07 IST" duration-ms="13246" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase titleTest started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase titleTest passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+      </class> <!-- ui.VerifyTitle -->
+      <class name="ui.GroupsDemoTest">
+        <test-method signature="bTest3()[pri:0, instance:ui.GroupsDemoTest@298a5e20]" started-at="2022-04-15T19:28:49 IST" name="bTest3" finished-at="2022-04-15T19:28:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase bTest3 started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase bTest3 passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bTest3 -->
+        <test-method signature="btest4()[pri:0, instance:ui.GroupsDemoTest@298a5e20]" started-at="2022-04-15T19:28:49 IST" name="btest4" finished-at="2022-04-15T19:28:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase btest4 started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase btest4 passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- btest4 -->
+        <test-method signature="loginTest()[pri:1, instance:ui.GroupsDemoTest@298a5e20]" started-at="2022-04-15T19:28:49 IST" name="loginTest" finished-at="2022-04-15T19:28:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase loginTest started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase loginTest passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="logout()[pri:2, instance:ui.GroupsDemoTest@298a5e20]" started-at="2022-04-15T19:28:49 IST" name="logout" finished-at="2022-04-15T19:28:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase logout started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase logout passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- ui.GroupsDemoTest -->
+      <class name="ui.BeforeAfterClass">
+        <test-method signature="bTest3()[pri:0, instance:ui.BeforeAfterClass@6e6f2380]" started-at="2022-04-15T19:29:10 IST" name="bTest3" finished-at="2022-04-15T19:29:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase bTest3 started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase bTest3 passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bTest3 -->
+        <test-method is-config="true" signature="beforClass()[pri:0, instance:ui.BeforeAfterClass@6e6f2380]" started-at="2022-04-15T19:29:10 IST" name="beforClass" finished-at="2022-04-15T19:29:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforClass -->
+        <test-method signature="btest4()[pri:0, instance:ui.BeforeAfterClass@6e6f2380]" started-at="2022-04-15T19:29:10 IST" name="btest4" finished-at="2022-04-15T19:29:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase btest4 started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase btest4 passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- btest4 -->
+        <test-method signature="loginTest()[pri:1, instance:ui.BeforeAfterClass@6e6f2380]" started-at="2022-04-15T19:29:10 IST" name="loginTest" finished-at="2022-04-15T19:29:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase loginTest started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase loginTest passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="logout()[pri:2, instance:ui.BeforeAfterClass@6e6f2380]" started-at="2022-04-15T19:29:10 IST" name="logout" finished-at="2022-04-15T19:29:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase logout started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase logout passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:ui.BeforeAfterClass@6e6f2380]" started-at="2022-04-15T19:29:10 IST" name="afterClass" finished-at="2022-04-15T19:29:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- ui.BeforeAfterClass -->
+      <class name="ui.LoginTest">
+        <test-method is-config="true" signature="dataSetup()[pri:0, instance:ui.LoginTest@368247b9]" started-at="2022-04-15T19:28:49 IST" name="dataSetup" finished-at="2022-04-15T19:28:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetup -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:ui.LoginTest@368247b9]" started-at="2022-04-15T19:28:49 IST" name="loginToApplication" finished-at="2022-04-15T19:28:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method is-config="true" signature="dbconnect()[pri:0, instance:ui.LoginTest@368247b9]" started-at="2022-04-15T19:28:49 IST" name="dbconnect" finished-at="2022-04-15T19:28:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbconnect -->
+        <test-method signature="loginTest()[pri:1, instance:ui.LoginTest@368247b9]" started-at="2022-04-15T19:28:49 IST" name="loginTest" description="This is login test" finished-at="2022-04-15T19:28:49 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase loginTest started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase loginTest passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="disconnectdb()[pri:0, instance:ui.LoginTest@368247b9]" started-at="2022-04-15T19:28:49 IST" name="disconnectdb" finished-at="2022-04-15T19:28:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectdb -->
+        <test-method is-config="true" signature="dbconnect()[pri:0, instance:ui.LoginTest@368247b9]" started-at="2022-04-15T19:28:49 IST" name="dbconnect" finished-at="2022-04-15T19:28:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbconnect -->
+        <test-method signature="logout()[pri:2, instance:ui.LoginTest@368247b9]" started-at="2022-04-15T19:28:49 IST" name="logout" description="This is logout" finished-at="2022-04-15T19:28:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase logout started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase logout passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="disconnectdb()[pri:0, instance:ui.LoginTest@368247b9]" started-at="2022-04-15T19:28:49 IST" name="disconnectdb" finished-at="2022-04-15T19:28:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disconnectdb -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:ui.LoginTest@368247b9]" started-at="2022-04-15T19:29:33 IST" name="logoutFromApplication" finished-at="2022-04-15T19:29:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:ui.LoginTest@368247b9]" started-at="2022-04-15T19:29:34 IST" name="Teardown" finished-at="2022-04-15T19:29:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- ui.LoginTest -->
+      <class name="ui.SkipDemoException">
+        <test-method signature="btest4()[pri:0, instance:ui.SkipDemoException@1ed4ae0f]" started-at="2022-04-15T19:28:49 IST" name="btest4" finished-at="2022-04-15T19:28:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase btest4 started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase btest4 passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- btest4 -->
+        <test-method signature="skipTest2()[pri:0, instance:ui.SkipDemoException@1ed4ae0f]" started-at="2022-04-15T19:28:49 IST" name="skipTest2" finished-at="2022-04-15T19:28:49 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test
+at ui.SkipDemoException.skipTest2(SkipDemoException.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase skipTest2 started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase skipTest2 got skipped]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- skipTest2 -->
+        <test-method signature="skipTest3()[pri:0, instance:ui.SkipDemoException@1ed4ae0f]" started-at="2022-04-15T19:28:49 IST" name="skipTest3" finished-at="2022-04-15T19:28:49 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Do not execute further steps]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Do not execute further steps
+at ui.SkipDemoException.skipTest3(SkipDemoException.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase skipTest3 started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase skipTest3 got skipped]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- skipTest3 -->
+      </class> <!-- ui.SkipDemoException -->
+      <class name="ui.ListenerDemoTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:ui.ListenerDemoTest@54c5a2ff]" started-at="2022-04-15T19:28:46 IST" name="launchBrowser" finished-at="2022-04-15T19:28:49 IST" duration-ms="2684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="launchApp()[pri:0, instance:ui.ListenerDemoTest@54c5a2ff]" started-at="2022-04-15T19:28:49 IST" name="launchApp" finished-at="2022-04-15T19:28:54 IST" duration-ms="5439" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase launchApp started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase launchApp passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:ui.ListenerDemoTest@54c5a2ff]" started-at="2022-04-15T19:29:33 IST" name="closeBrowser" finished-at="2022-04-15T19:29:34 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ui.ListenerDemoTest -->
+      <class name="ui.DataproviderDemoTest2Login">
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:ui.DataproviderDemoTest2Login@2e8c1c9b]" started-at="2022-04-15T19:29:15 IST" name="test1" data-provider="create" finished-at="2022-04-15T19:29:17 IST" duration-ms="2498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase test1 started successfully]]>
+            </line>
+            <line>
+              <![CDATA[New chrome browser open.]]>
+            </line>
+            <line>
+              <![CDATA[https://www.saucedemo.com/]]>
+            </line>
+            <line>
+              <![CDATA[Login with user id : standard_user,]]>
+            </line>
+            <line>
+              <![CDATA[Password is : secret_sauce.]]>
+            </line>
+            <line>
+              <![CDATA[Login is successfull]]>
+            </line>
+            <line>
+              <![CDATA[Windows closed]]>
+            </line>
+            <line>
+              <![CDATA[Testcase test1 passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:ui.DataproviderDemoTest2Login@2e8c1c9b]" started-at="2022-04-15T19:29:17 IST" name="test1" data-provider="create" finished-at="2022-04-15T19:29:19 IST" duration-ms="2388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase test1 started successfully]]>
+            </line>
+            <line>
+              <![CDATA[New chrome browser open.]]>
+            </line>
+            <line>
+              <![CDATA[https://www.saucedemo.com/]]>
+            </line>
+            <line>
+              <![CDATA[Login with user id : locked_out_user,]]>
+            </line>
+            <line>
+              <![CDATA[Password is : secret_sauce.]]>
+            </line>
+            <line>
+              <![CDATA[Login is successfull]]>
+            </line>
+            <line>
+              <![CDATA[Windows closed]]>
+            </line>
+            <line>
+              <![CDATA[Testcase test1 passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:ui.DataproviderDemoTest2Login@2e8c1c9b]" started-at="2022-04-15T19:29:19 IST" name="test1" data-provider="create" finished-at="2022-04-15T19:29:22 IST" duration-ms="2352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase test1 started successfully]]>
+            </line>
+            <line>
+              <![CDATA[New chrome browser open.]]>
+            </line>
+            <line>
+              <![CDATA[https://www.saucedemo.com/]]>
+            </line>
+            <line>
+              <![CDATA[Login with user id : problem_user,]]>
+            </line>
+            <line>
+              <![CDATA[Password is : secret_sauce.]]>
+            </line>
+            <line>
+              <![CDATA[Login is successfull]]>
+            </line>
+            <line>
+              <![CDATA[Windows closed]]>
+            </line>
+            <line>
+              <![CDATA[Testcase test1 passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:ui.DataproviderDemoTest2Login@2e8c1c9b]" started-at="2022-04-15T19:29:22 IST" name="test1" data-provider="create" finished-at="2022-04-15T19:29:33 IST" duration-ms="11620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase test1 started successfully]]>
+            </line>
+            <line>
+              <![CDATA[New chrome browser open.]]>
+            </line>
+            <line>
+              <![CDATA[https://www.saucedemo.com/]]>
+            </line>
+            <line>
+              <![CDATA[Login with user id : performance_glitch_user,]]>
+            </line>
+            <line>
+              <![CDATA[Password is : secret_sauce.]]>
+            </line>
+            <line>
+              <![CDATA[Login is successfull]]>
+            </line>
+            <line>
+              <![CDATA[Windows closed]]>
+            </line>
+            <line>
+              <![CDATA[Testcase test1 passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- ui.DataproviderDemoTest2Login -->
+      <class name="ui.VerifyTitleAndTextTest">
+        <test-method signature="titleTest()[pri:0, instance:ui.VerifyTitleAndTextTest@76a4ebf2]" started-at="2022-04-15T19:29:10 IST" name="titleTest" finished-at="2022-04-15T19:29:15 IST" duration-ms="4368" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase titleTest started successfully]]>
+            </line>
+            <line>
+              <![CDATA[Testcase titleTest passed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+      </class> <!-- ui.VerifyTitleAndTextTest -->
+    </test> <!-- Functional Testing -->
+  </suite> <!-- Regression -->
+</testng-results>

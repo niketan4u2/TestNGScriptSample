@@ -1,0 +1,614 @@
+<html>
+<head>
+<title>TestNG:  Functional Testing</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Functional Testing</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>31/0/2</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Apr 15 19:28:49 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>44 seconds (44672 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ui.GroupsDemoTest.btest4()'><b>btest4</b><br>Test class: ui.GroupsDemoTest<br/>
+<a href="#Output-1401095299" onClick='toggleBox("Output-1401095299", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1401095299" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1401095299">
+Testcase btest4 started successfully<br/>
+Testcase btest4 passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.GroupsDemoTest@298a5e20</td></tr>
+<tr>
+<td title='ui.DataproviderDemoTest.test()'><b>test</b><br>Test class: ui.DataproviderDemoTest<br>Parameters: username, password<br/>
+<a href="#Output-927369095" onClick='toggleBox("Output-927369095", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-927369095" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-927369095">
+Testcase test started successfully<br/>
+Testcase test passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.DataproviderDemoTest@6892b3b6</td></tr>
+<tr>
+<td title='ui.SkipDemoException.btest4()'><b>btest4</b><br>Test class: ui.SkipDemoException<br/>
+<a href="#Output-1921143808" onClick='toggleBox("Output-1921143808", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1921143808" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1921143808">
+Testcase btest4 started successfully<br/>
+Testcase btest4 passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.SkipDemoException@1ed4ae0f</td></tr>
+<tr>
+<td title='ui.GroupsDemoTest2.btest4()'><b>btest4</b><br>Test class: ui.GroupsDemoTest2<br/>
+<a href="#Output-790851040" onClick='toggleBox("Output-790851040", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-790851040" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-790851040">
+Testcase btest4 started successfully<br/>
+Testcase btest4 passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.GroupsDemoTest2@2a265ea9</td></tr>
+<tr>
+<td title='ui.GroupsDemoTest.bTest3()'><b>bTest3</b><br>Test class: ui.GroupsDemoTest<br/>
+<a href="#Output-973604748" onClick='toggleBox("Output-973604748", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-973604748" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-973604748">
+Testcase bTest3 started successfully<br/>
+Testcase bTest3 passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.GroupsDemoTest@298a5e20</td></tr>
+<tr>
+<td title='ui.GroupsDemoTest2.loginTest()'><b>loginTest</b><br>Test class: ui.GroupsDemoTest2<br/>
+<a href="#Output-1320826684" onClick='toggleBox("Output-1320826684", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1320826684" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1320826684">
+Testcase loginTest started successfully<br/>
+Testcase loginTest passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.GroupsDemoTest2@2a265ea9</td></tr>
+<tr>
+<td title='ui.DataproviderDemoTest.test1()'><b>test1</b><br>Test class: ui.DataproviderDemoTest<br>Parameters: username, password, test<br/>
+<a href="#Output-525551643" onClick='toggleBox("Output-525551643", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-525551643" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-525551643">
+Testcase test1 started successfully<br/>
+Testcase test1 passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.DataproviderDemoTest@6892b3b6</td></tr>
+<tr>
+<td title='ui.VerifyTitleAndTextTest.titleTest()'><b>titleTest</b><br>Test class: ui.VerifyTitleAndTextTest<br/>
+<a href="#Output-423095039" onClick='toggleBox("Output-423095039", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-423095039" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-423095039">
+Testcase titleTest started successfully<br/>
+Testcase titleTest passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>ui.VerifyTitleAndTextTest@76a4ebf2</td></tr>
+<tr>
+<td title='ui.BeforeAfterClass.bTest3()'><b>bTest3</b><br>Test class: ui.BeforeAfterClass<br/>
+<a href="#Output-935552520" onClick='toggleBox("Output-935552520", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-935552520" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-935552520">
+Testcase bTest3 started successfully<br/>
+Testcase bTest3 passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.BeforeAfterClass@6e6f2380</td></tr>
+<tr>
+<td title='ui.GroupsDemoTest.logout()'><b>logout</b><br>Test class: ui.GroupsDemoTest<br/>
+<a href="#Output-1134601005" onClick='toggleBox("Output-1134601005", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1134601005" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1134601005">
+Testcase logout started successfully<br/>
+Testcase logout passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.GroupsDemoTest@298a5e20</td></tr>
+<tr>
+<td title='ui.BeforeAfterClass.loginTest()'><b>loginTest</b><br>Test class: ui.BeforeAfterClass<br/>
+<a href="#Output-102185114" onClick='toggleBox("Output-102185114", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-102185114" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-102185114">
+Testcase loginTest started successfully<br/>
+Testcase loginTest passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.BeforeAfterClass@6e6f2380</td></tr>
+<tr>
+<td title='ui.GroupsDemoTest2.bTest3()'><b>bTest3</b><br>Test class: ui.GroupsDemoTest2<br/>
+<a href="#Output-1677976140" onClick='toggleBox("Output-1677976140", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1677976140" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1677976140">
+Testcase bTest3 started successfully<br/>
+Testcase bTest3 passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.GroupsDemoTest2@2a265ea9</td></tr>
+<tr>
+<td title='ui.DataproviderDemoTest2Login.test1()'><b>test1</b><br>Test class: ui.DataproviderDemoTest2Login<br>Parameters: problem_user, secret_sauce<br/>
+<a href="#Output-552266488" onClick='toggleBox("Output-552266488", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-552266488" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-552266488">
+Testcase test1 started successfully<br/>
+New chrome browser open.<br/>
+https://www.saucedemo.com/<br/>
+Login with user id : problem_user,<br/>
+Password is : secret_sauce.<br/>
+Login is successfull<br/>
+Windows closed<br/>
+Testcase test1 passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ui.DataproviderDemoTest2Login@2e8c1c9b</td></tr>
+<tr>
+<td title='ui.LaunchApplicationLogin.launchApplication()'><b>launchApplication</b><br>Test class: ui.LaunchApplicationLogin<br>Parameters: chrome<br/>
+<a href="#Output-566042862" onClick='toggleBox("Output-566042862", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-566042862" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-566042862">
+Testcase launchApplication started successfully<br/>
+New chrome browser open.<br/>
+https://www.saucedemo.com/<br/>
+Login with user id : standard_user<br/>
+Password is : secret_sauce<br/>
+Login is successfull<br/>
+Windows closed<br/>
+Testcase launchApplication passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ui.LaunchApplicationLogin@11392934</td></tr>
+<tr>
+<td title='ui.DataproviderDemoTest.test1()'><b>test1</b><br>Test class: ui.DataproviderDemoTest<br>Parameters: username2, password2, test2<br/>
+<a href="#Output-669501311" onClick='toggleBox("Output-669501311", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-669501311" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-669501311">
+Testcase test1 started successfully<br/>
+Testcase test1 passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.DataproviderDemoTest@6892b3b6</td></tr>
+<tr>
+<td title='ui.BeforeAfterClass.btest4()'><b>btest4</b><br>Test class: ui.BeforeAfterClass<br/>
+<a href="#Output-1565096593" onClick='toggleBox("Output-1565096593", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1565096593" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1565096593">
+Testcase btest4 started successfully<br/>
+Testcase btest4 passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.BeforeAfterClass@6e6f2380</td></tr>
+<tr>
+<td title='ui.GroupsDemoTest.loginTest()'><b>loginTest</b><br>Test class: ui.GroupsDemoTest<br/>
+<a href="#Output-704143329" onClick='toggleBox("Output-704143329", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-704143329" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-704143329">
+Testcase loginTest started successfully<br/>
+Testcase loginTest passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.GroupsDemoTest@298a5e20</td></tr>
+<tr>
+<td title='ui.DataproviderDemoTest2Login.test1()'><b>test1</b><br>Test class: ui.DataproviderDemoTest2Login<br>Parameters: locked_out_user, secret_sauce<br/>
+<a href="#Output-2095602418" onClick='toggleBox("Output-2095602418", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2095602418" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2095602418">
+Testcase test1 started successfully<br/>
+New chrome browser open.<br/>
+https://www.saucedemo.com/<br/>
+Login with user id : locked_out_user,<br/>
+Password is : secret_sauce.<br/>
+Login is successfull<br/>
+Windows closed<br/>
+Testcase test1 passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ui.DataproviderDemoTest2Login@2e8c1c9b</td></tr>
+<tr>
+<td title='ui.DataproviderDemoTest.test()'><b>test</b><br>Test class: ui.DataproviderDemoTest<br>Parameters: username3, password3<br/>
+<a href="#Output-480943798" onClick='toggleBox("Output-480943798", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-480943798" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-480943798">
+Testcase test started successfully<br/>
+Testcase test passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.DataproviderDemoTest@6892b3b6</td></tr>
+<tr>
+<td title='ui.ListenerDemoTest.launchApp()'><b>launchApp</b><br>Test class: ui.ListenerDemoTest<br/>
+<a href="#Output-1291485735" onClick='toggleBox("Output-1291485735", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1291485735" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1291485735">
+Testcase launchApp started successfully<br/>
+Testcase launchApp passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>ui.ListenerDemoTest@54c5a2ff</td></tr>
+<tr>
+<td title='ui.VerifyTitle.titleTest()'><b>titleTest</b><br>Test class: ui.VerifyTitle<br/>
+<a href="#Output-2111181256" onClick='toggleBox("Output-2111181256", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2111181256" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2111181256">
+Testcase titleTest started successfully<br/>
+Testcase titleTest passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>ui.VerifyTitle@6d4d66d2</td></tr>
+<tr>
+<td title='ui.BeforeAfterClass.logout()'><b>logout</b><br>Test class: ui.BeforeAfterClass<br/>
+<a href="#Output-479160976" onClick='toggleBox("Output-479160976", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-479160976" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-479160976">
+Testcase logout started successfully<br/>
+Testcase logout passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.BeforeAfterClass@6e6f2380</td></tr>
+<tr>
+<td title='ui.DataproviderDemoTest2Login.test1()'><b>test1</b><br>Test class: ui.DataproviderDemoTest2Login<br>Parameters: standard_user, secret_sauce<br/>
+<a href="#Output-1370494288" onClick='toggleBox("Output-1370494288", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1370494288" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1370494288">
+Testcase test1 started successfully<br/>
+New chrome browser open.<br/>
+https://www.saucedemo.com/<br/>
+Login with user id : standard_user,<br/>
+Password is : secret_sauce.<br/>
+Login is successfull<br/>
+Windows closed<br/>
+Testcase test1 passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>ui.DataproviderDemoTest2Login@2e8c1c9b</td></tr>
+<tr>
+<td title='ui.DataproviderDemoTest2Login.test1()'><b>test1</b><br>Test class: ui.DataproviderDemoTest2Login<br>Parameters: performance_glitch_user, secret_sauce<br/>
+<a href="#Output-1916303325" onClick='toggleBox("Output-1916303325", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1916303325" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1916303325">
+Testcase test1 started successfully<br/>
+New chrome browser open.<br/>
+https://www.saucedemo.com/<br/>
+Login with user id : performance_glitch_user,<br/>
+Password is : secret_sauce.<br/>
+Login is successfull<br/>
+Windows closed<br/>
+Testcase test1 passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>ui.DataproviderDemoTest2Login@2e8c1c9b</td></tr>
+<tr>
+<td title='ui.DataproviderDemoTest.test1()'><b>test1</b><br>Test class: ui.DataproviderDemoTest<br>Parameters: username3, password3, test3<br/>
+<a href="#Output-1869652507" onClick='toggleBox("Output-1869652507", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1869652507" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1869652507">
+Testcase test1 started successfully<br/>
+Testcase test1 passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.DataproviderDemoTest@6892b3b6</td></tr>
+<tr>
+<td title='ui.DataproviderDemoTest.test()'><b>test</b><br>Test class: ui.DataproviderDemoTest<br>Parameters: username2, password2<br/>
+<a href="#Output-1901018532" onClick='toggleBox("Output-1901018532", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1901018532" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1901018532">
+Testcase test started successfully<br/>
+Testcase test passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.DataproviderDemoTest@6892b3b6</td></tr>
+<tr>
+<td title='ui.LoginTest.logout()'><b>logout</b><br>Test class: ui.LoginTest<br>Test method: This is logout<br/>
+<a href="#Output-407241000" onClick='toggleBox("Output-407241000", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-407241000" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-407241000">
+Testcase logout started successfully<br/>
+Testcase logout passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.LoginTest@368247b9</td></tr>
+<tr>
+<td title='ui.DataproviderDemoTest.test1()'><b>test1</b><br>Test class: ui.DataproviderDemoTest<br>Parameters: username1, password1, test1<br/>
+<a href="#Output-801996095" onClick='toggleBox("Output-801996095", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-801996095" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-801996095">
+Testcase test1 started successfully<br/>
+Testcase test1 passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.DataproviderDemoTest@6892b3b6</td></tr>
+<tr>
+<td title='ui.GroupsDemoTest2.logout()'><b>logout</b><br>Test class: ui.GroupsDemoTest2<br/>
+<a href="#Output-1987707214" onClick='toggleBox("Output-1987707214", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1987707214" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1987707214">
+Testcase logout started successfully<br/>
+Testcase logout passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.GroupsDemoTest2@2a265ea9</td></tr>
+<tr>
+<td title='ui.DataproviderDemoTest.test()'><b>test</b><br>Test class: ui.DataproviderDemoTest<br>Parameters: username1, password1<br/>
+<a href="#Output-1374431318" onClick='toggleBox("Output-1374431318", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1374431318" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1374431318">
+Testcase test started successfully<br/>
+Testcase test passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.DataproviderDemoTest@6892b3b6</td></tr>
+<tr>
+<td title='ui.LoginTest.loginTest()'><b>loginTest</b><br>Test class: ui.LoginTest<br>Test method: This is login test<br/>
+<a href="#Output-1241395522" onClick='toggleBox("Output-1241395522", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1241395522" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1241395522">
+Testcase loginTest started successfully<br/>
+Testcase loginTest passed successfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>ui.LoginTest@368247b9</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='ui.SkipDemoException.skipTest2()'><b>skipTest2</b><br>Test class: ui.SkipDemoException<br/>
+<a href="#Output-435034854" onClick='toggleBox("Output-435034854", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-435034854" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-435034854">
+Testcase skipTest2 started successfully<br/>
+Testcase skipTest2 got skipped<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: Skipping the test
+	at ui.SkipDemoException.skipTest2(SkipDemoException.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace435034854", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace435034854'><pre>org.testng.SkipException: Skipping the test
+	at ui.SkipDemoException.skipTest2(SkipDemoException.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>ui.SkipDemoException@1ed4ae0f</td></tr>
+<tr>
+<td title='ui.SkipDemoException.skipTest3()'><b>skipTest3</b><br>Test class: ui.SkipDemoException<br/>
+<a href="#Output-1907808127" onClick='toggleBox("Output-1907808127", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1907808127" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1907808127">
+Testcase skipTest3 started successfully<br/>
+Testcase skipTest3 got skipped<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: Do not execute further steps
+	at ui.SkipDemoException.skipTest3(SkipDemoException.java:31)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1907808127", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1907808127'><pre>org.testng.SkipException: Do not execute further steps
+	at ui.SkipDemoException.skipTest3(SkipDemoException.java:31)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>ui.SkipDemoException@1ed4ae0f</td></tr>
+</table><p>
+</body>
+</html>
